@@ -1,0 +1,166 @@
+
+h2{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+/* SECTIONS */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: white;
+}
+
+/* Title */
+#title {
+
+  padding: 3% 15%;
+}
+.title-heading{
+  color: white;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* Navigation Bar style */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  font-family: "Ubuntu";
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.iphoneWithDogImage{
+  position: absolute;
+  transform: rotate(25deg);
+  width: 60%;
+  text-align: right;
+}
+
+/* features Section */
+#features{
+
+  position: relative;
+}
+.specificationContainer{
+  padding: 12% 15% 12% 15%;
+  text-align: center;
+
+}
+.specificationIcons{
+  font-size: 3.5em;
+  color: #ef8172;
+  margin-bottom:6%;
+}
+.specificationIcons:hover{
+  color:#ff4c68;
+}
+
+.specificationText{
+  font-family: "Montserrat";
+}
+.specificationDescription{
+  color: #8f8f8f;
+  margin:0 2% 3% 0;
+  padding:0 6%;
+}
+
+/* Testimonials section */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+}
+.testimonial-image{
+  width: 16%;
+  border-radius: 100%;
+  margin: 3%;
+}
+.testimonial-location{
+  color:white;
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+
+/* Press Section */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.press-image{
+  margin: 3%;
+  width: 13%;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 5% 10%;
+}
+.pricing-card{
+  padding: 3%;
+}
+.pricing-heading{
+  color: Black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+/* CALL TO ACTION */
+#cta{
+  padding: 5% 15%;
+  text-align: center;
+}
+.lastDownloadButton{
+  margin: 2.5% 1%;
+}
+.ctaDescription{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+/* FOOTER */
+#footer{
+  text-align: center;
+  margin: 6% 5%;
+}
+.footerIcons{
+  padding: 20px;
+  font-size: 2rem;
+}
+
+/* MEDIA QUERY */
+@media (max-width:990px) {
+  .iphoneWithDogImage{
+    position: static;
+    transform:rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
